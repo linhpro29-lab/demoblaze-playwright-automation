@@ -40,16 +40,16 @@ This project is a modular End-to-End (E2E) test automation framework for the (ht
 
 ## How to Run 
 - **Execute tests through commands with useful flags**:
-   npx playwright test
-   npx playwright test --workers=1 (for better stability)
-   npx playwright test --headed (run tests with open browser)
-   npx playwright test --ui (run tests with opened interface for better tracking)
-   npx playwright test --debug (run tests in debug mode)
-   npx playwright test --trace on (run tests with detailed trace)
+* npx playwright test
+* npx playwright test --workers=1 (for better stability)
+* npx playwright test --headed (run tests with open browser)
+* npx playwright test --ui (run tests with opened interface for better tracking)
+* npx playwright test --debug (run tests in debug mode)
+* npx playwright test --trace on (run tests with detailed trace)
 
 - **Execute tests through UI**:
-   Navigate to `Testing` bar on the left side menu
-   Choose Project browser to run
-   Select test suites or test case name to run
-   Press Play button
+1. Navigate to `Testing` bar on the left side menu
+2. Choose Project browser to run
+3. Select test suites or test case name to run
+4. Press Play button
 
