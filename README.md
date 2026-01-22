@@ -35,8 +35,8 @@ This project is a modular End-to-End (E2E) test automation framework for the (ht
    git clone <https://github.com/linhpro29-lab/demoblaze-playwright-automation.git>
 
 - **Get dependencies**:
-   npm install
-   npx playwright install
+* npm install
+* npx playwright install
 
 ## How to Run 
 - **Execute tests through commands with useful flags**:
