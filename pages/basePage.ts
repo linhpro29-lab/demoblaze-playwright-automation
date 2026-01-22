@@ -22,4 +22,8 @@ export class BasePage {
 
     return message;
   }
+
+  async waitForNumberOfSeconds(timeInSeconds: number) {
+    await this.page.waitForTimeout(timeInSeconds * 1000)
+  }
 }
