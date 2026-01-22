@@ -1,5 +1,5 @@
 import { expect, Locator, Page } from '@playwright/test';
-import { BasePage } from './BasePage';
+import { BasePage } from './basePage';
 import { CartPage } from '../pages/cartPage';
 import { ItemCardPage } from '../pages/itemCardPage';
 

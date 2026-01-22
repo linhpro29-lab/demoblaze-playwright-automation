@@ -1,4 +1,4 @@
-import { BasePage } from './BasePage';
+import { BasePage } from './basePage';
 
 export class CartPage extends BasePage {
     //Element locators
