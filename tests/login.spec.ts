@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { LoginData } from '../Test data/loginData';
-import { PageManager } from '../pages/PageManager';
+import { PageManager } from '../pages/pageManager';
 
 test.describe('Main Page navigation', () => {
     let pm: PageManager;

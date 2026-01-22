@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { LoginData } from '../Test data/loginData';
 import { ProductData } from '../Test data/productData';
 import { ClientData } from '../Test data/clientData';
-import { PageManager } from '../pages/PageManager';
+import { PageManager } from '../pages/pageManager';
 
 test.describe('User authorization', () => {
     let pm: PageManager;

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { LoginData } from '../Test data/loginData';
 import { ProductData } from '../Test data/productData';
-import { PageManager } from '../pages/PageManager';
+import { PageManager } from '../pages/pageManager';
 
 test.describe('User authorization', () => {
     let pm: PageManager;
@@ -17,7 +17,6 @@ test.describe('User authorization', () => {
         const expectedMonitors = ProductData.categories.monitors;
 
         await test.step('Navigate to categories', async () => {
-            const expectedMonitors = ProductData.categories.monitors;
             await pm.onProductPage().SelectMonitorsCategory();
         });
 
