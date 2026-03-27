@@ -32,7 +32,7 @@ This project is a modular End-to-End (E2E) test automation framework for the (ht
 
 - **Clone the repository**:
    ```bash
-   git clone <https://github.com/linhpro29-lab/demoblaze-playwright-automation.git>
+   git clone https://github.com/linhpro29-lab/demoblaze-playwright-automation.git
 
 - **Get dependencies**:
 * npm install
